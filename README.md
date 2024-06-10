@@ -1,5 +1,5 @@
 <h1 align="center">
- <img src="https://user-images.githubusercontent.com/45159366/142936394-b546784e-231a-4391-9dd8-c686e5a7eee9.png">
+ <img src="">
   <br />
   PipeWire Guide
 </h1>
@@ -57,12 +57,12 @@
 
 [Back to the Top](#table-of-contents)
 
-[![You should use PipeWire... NOW!!!](https://ytcards.demolab.com/?id=5a7_2mA2LYQ&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "You should use PipeWire... NOW!!!")](https://www.youtube.com/watch?v=5a7_2mA2LYQ) 
-[![PulseAudio Is Dead To Me: Pipewire Is Here To Stay](https://ytcards.demolab.com/?id=A6tomqOZvM4&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "PulseAudio Is Dead To Me: Pipewire Is Here To Stay")](https://www.youtube.com/watch?v=A6tomqOZvM4) 
-[![Wireplumber Takes Pipewire To The Next Level!](https://ytcards.demolab.com/?id=Zv1P6-kUn0c&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Wireplumber Takes Pipewire To The Next Level!")](https://www.youtube.com/watch?v=Zv1P6-kUn0c)
-[![Qpwgraph: Easiest Way To Reroute Pipewire Audio](https://ytcards.demolab.com/?id=TDBGsbwMo40&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Qpwgraph: Easiest Way To Reroute Pipewire Audio")](https://www.youtube.com/watch?v=TDBGsbwMo40)
-[![PipeWire Pro Audio](https://ytcards.demolab.com/?id=YQrHEwDeL3w&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "PipeWire Pro Audio")](https://www.youtube.com/watch?v=YQrHEwDeL3w) 
-[![Pipewire Finally Seems to Be Ready for the Masses](https://ytcards.demolab.com/?id=luUVD-W1lkA&lang=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Pipewire Finally Seems to Be Ready for the Masses")](https://www.youtube.com/watch?v=luUVD-W1lkA) 
+[![You should use PipeWire... NOW!!!](https://ytcards.demolab.com/?id=5a7_2mA2LYQ&LC_ALL=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "You should use PipeWire... NOW!!!")](https://www.youtube.com/watch?v=5a7_2mA2LYQ) 
+[![PulseAudio Is Dead To Me: Pipewire Is Here To Stay](https://ytcards.demolab.com/?id=A6tomqOZvM4&LC_ALL=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "PulseAudio Is Dead To Me: Pipewire Is Here To Stay")](https://www.youtube.com/watch?v=A6tomqOZvM4) 
+[![Wireplumber Takes Pipewire To The Next Level!](https://ytcards.demolab.com/?id=Zv1P6-kUn0c&LC_ALL=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Wireplumber Takes Pipewire To The Next Level!")](https://www.youtube.com/watch?v=Zv1P6-kUn0c)
+[![Qpwgraph: Easiest Way To Reroute Pipewire Audio](https://ytcards.demolab.com/?id=TDBGsbwMo40&LC_ALL=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Qpwgraph: Easiest Way To Reroute Pipewire Audio")](https://www.youtube.com/watch?v=TDBGsbwMo40)
+[![PipeWire Pro Audio](https://ytcards.demolab.com/?id=YQrHEwDeL3w&LC_ALL=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "PipeWire Pro Audio")](https://www.youtube.com/watch?v=YQrHEwDeL3w) 
+[![Pipewire Finally Seems to Be Ready for the Masses](https://ytcards.demolab.com/?id=luUVD-W1lkA&LC_ALL=en&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=240 "Pipewire Finally Seems to Be Ready for the Masses")](https://www.youtube.com/watch?v=luUVD-W1lkA) 
 
 ### Developer Resources
 
@@ -419,7 +419,7 @@ Create a pipewire-pulse service by copying the example files:
 
 **This will configure PipeWire to activate its PulseAudio replacement daemon. Verify that it's enabled by running:**
 
-```LANG=C pactl info | grep '^Server Name'```
+```LC_ALL=C pactl info | grep '^Server Name'```
 
 It should say **Server Name: PulseAudio (on PipeWire 0.3.19)**.
 
@@ -472,7 +472,7 @@ Create a pipewire-pulse service by copying the example files:
 
 **This will configure PipeWire to activate its PulseAudio replacement daemon. Verify that it's enabled by running:**
 
-```LANG=C pactl info | grep '^Server Name'```
+```LC_ALL=C pactl info | grep '^Server Name'```
 
 It should say **Server Name: PulseAudio (on PipeWire 0.3.19)**.
 
