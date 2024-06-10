@@ -1,5 +1,5 @@
 <h1 align="center">
- <img src="https://user-images.githubusercontent.com/45159366/142936394-b546784e-231a-4391-9dd8-c686e5a7eee9.png">
+ <img src="">
   <br />
   PipeWire Guide
 </h1>
@@ -16,7 +16,7 @@
 **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/45159366/144766375-c90533df-e0d6-4893-9131-465fe54e236d.png">
+<img src="">
 <br />
 </p>
 
